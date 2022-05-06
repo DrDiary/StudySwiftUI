@@ -11,6 +11,10 @@
 		1DC209CF2824D6E3004E3B03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC209CE2824D6E3004E3B03 /* ContentView.swift */; };
 		1DC209D12824D6E4004E3B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC209D02824D6E4004E3B03 /* Assets.xcassets */; };
 		1DC209D42824D6E4004E3B03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC209D32824D6E4004E3B03 /* Preview Assets.xcassets */; };
+		1DC209DD2824E077004E3B03 /* HanSJinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC209DC2824E077004E3B03 /* HanSJinView.swift */; };
+		1DC209DF2824E1BD004E3B03 /* AidosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC209DE2824E1BD004E3B03 /* AidosView.swift */; };
+		1DC209E12824E219004E3B03 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DC209E02824E219004E3B03 /* screenshot.png */; };
+		1DC209E32824E25A004E3B03 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1DC209E22824E25A004E3B03 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		1DC209CE2824D6E3004E3B03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DC209D02824D6E4004E3B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DC209D32824D6E4004E3B03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DC209DC2824E077004E3B03 /* HanSJinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanSJinView.swift; sourceTree = "<group>"; };
+		1DC209DE2824E1BD004E3B03 /* AidosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AidosView.swift; sourceTree = "<group>"; };
+		1DC209E02824E219004E3B03 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		1DC209E22824E25A004E3B03 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,8 @@
 		1DC209C02824D6E3004E3B03 = {
 			isa = PBXGroup;
 			children = (
+				1DC209E22824E25A004E3B03 /* README.md */,
+				1DC209E02824E219004E3B03 /* screenshot.png */,
 				1DC209CB2824D6E3004E3B03 /* StudySwiftUI */,
 				1DC209CA2824D6E3004E3B03 /* Products */,
 			);
@@ -53,6 +63,8 @@
 			children = (
 				1DC209CC2824D6E3004E3B03 /* StudySwiftUIApp.swift */,
 				1DC209CE2824D6E3004E3B03 /* ContentView.swift */,
+				1DC209DA2824D700004E3B03 /* HanSJin */,
+				1DC209DB2824D707004E3B03 /* Aidos */,
 				1DC209D02824D6E4004E3B03 /* Assets.xcassets */,
 				1DC209D22824D6E4004E3B03 /* Preview Content */,
 			);
@@ -65,6 +77,22 @@
 				1DC209D32824D6E4004E3B03 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DC209DA2824D700004E3B03 /* HanSJin */ = {
+			isa = PBXGroup;
+			children = (
+				1DC209DC2824E077004E3B03 /* HanSJinView.swift */,
+			);
+			path = HanSJin;
+			sourceTree = "<group>";
+		};
+		1DC209DB2824D707004E3B03 /* Aidos */ = {
+			isa = PBXGroup;
+			children = (
+				1DC209DE2824E1BD004E3B03 /* AidosView.swift */,
+			);
+			path = Aidos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC209E12824E219004E3B03 /* screenshot.png in Resources */,
 				1DC209D42824D6E4004E3B03 /* Preview Assets.xcassets in Resources */,
+				1DC209E32824E25A004E3B03 /* README.md in Resources */,
 				1DC209D12824D6E4004E3B03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC209CF2824D6E3004E3B03 /* ContentView.swift in Sources */,
+				1DC209DF2824E1BD004E3B03 /* AidosView.swift in Sources */,
+				1DC209DD2824E077004E3B03 /* HanSJinView.swift in Sources */,
 				1DC209CD2824D6E3004E3B03 /* StudySwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
