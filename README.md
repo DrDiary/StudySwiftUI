@@ -1,3 +1,3 @@
 # StudySwiftUI
 
-<img src="./screenshot.png"/>
+<img src="./screenshot.png" width="300"/>
