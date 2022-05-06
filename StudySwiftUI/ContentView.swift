@@ -38,7 +38,7 @@ struct ContentView: View {
                         .font(.headline)
                 }
             }
-            .navigationTitle("il Ha Gi Sil Ta")
+            .navigationTitle("Gong Bu Ha Za")
         }
     }
 }
